@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive NavBar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="sidebar">
+            <a onclick="hideSidebar()" href=""><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+            <a href="#">Driving In Qatar</a>
+            <a href="#">Living In Qatar</a>
+            <a href="#">Visiting In Qatar</a>
+            <a href="#">Login</a>
+        </div>
+        <div class="logo">
+            <a href="#">DohaGuid.com</a>
+        </div>
+        <div class="nav-links">
+            <a class="hideOnMobile" href="#">Driving In Qatar</a>
+            <a class="hideOnMobile" href="#">Living In Qatar</a>
+            <a class="hideOnMobile" href="#">Visiting In Qatar</a>
+            <a class="hideOnMobile" href="#">Login</a>
+            <a  onclick="showSideBar()"  class="menu-button" href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+        </div>
+    </nav>
+    <script src="app.js">
+
+    </script>
+</body>
+</html>
